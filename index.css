@@ -1,0 +1,19 @@
+body {
+  @apply bg-blue-50; /* Light blue background */
+}
+
+h1 {
+  @apply text-4xl text-center text-blue-700 font-bold mb-8; /* Main title style */
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300;
+}
+
+.card-content {
+  @apply p-4;
+}
+
+.like-button {
+  @apply mt-4 hover:text-green-500 transition-all duration-300 cursor-pointer;
+}
